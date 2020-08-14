@@ -10,9 +10,23 @@ const Join = () => {
         <div className="outerContainer">
             <div className="innerContainer">
                 <h1 className="header">Join</h1>
-                <div></div>
-                <div></div>
-            
+                <div>
+                    <input
+                        placeholder="Name"
+                        className="joinInput"
+                        type="text"
+                        onChange={} />
+                </div>
+                <div>
+                    <input
+                        placeholder=""
+                        className="joinInput"
+                        type="text"
+                        onChange={} />
+                </div>
+                <Link>
+                    <button className="button" type="submit">Sign In</button>
+                </Link>
             
             
             
