@@ -15,12 +15,12 @@ const Join = () => {
                         placeholder="Name"
                         className="joinInput"
                         type="text"
-                        onChange={} />
+                        onChange={(e) => e.target.value} />
                 </div>
                 <div>
                     <input
-                        placeholder=""
-                        className="joinInput"
+                        placeholder="Room"
+                        className="joinInput mt-20"
                         type="text"
                         onChange={} />
                 </div>
