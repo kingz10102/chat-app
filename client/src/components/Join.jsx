@@ -22,7 +22,7 @@ const Join = () => {
                         placeholder="Room"
                         className="joinInput mt-20"
                         type="text"
-                        onChange={} />
+                        onChange={ (e) => setRoom(e.target.value)} />
                 </div>
                 <Link>
                     <button className="button" type="submit">Sign In</button>
