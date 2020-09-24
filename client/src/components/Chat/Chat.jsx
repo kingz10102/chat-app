@@ -17,13 +17,13 @@ const Chat = ({ location }) => {
 	const [ users, setUsers ] = useState('');
 	const [ message, setMessage ] = useState('');
 	const [ messages, setMessages ] = useState([]);
-	const ENDPOINT = ' https://chat-room-fandom.herokuapp.com/';
+	const ENDPOINT = 'http://chat-room-fandom.herokuapp.com/';
 	useEffect(
 		() => {
 			const { name, room } = queryString.parse(location.search);
 
 			socket = io(ENDPOINT);
-
+// setting room and name of users
 			setRoom(room);
 			setName(name);
 
