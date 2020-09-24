@@ -1,71 +1,76 @@
-html, body {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
+html,
+body {
+	font-family: 'Red Rose', cursive;
+	padding: 0;
+	margin: 0;
 }
-  
+
 #root {
-    height: 100vh;
+	height: 100vh;
 }
-  
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-  
-.outerContainer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-    align-items: center;
-    background-color: #366958;
+
+.joinOuterWrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	align-items: center;
+	background: radial-gradient( #8fe1ff, #0f0130);
 }
-  
-.innerContainer {
-    width: 20%;
+
+.joinInnerWrapperr {
+	width: 20%;
 }
-  
+
 .joinInput {
-    border-radius: 0;
-    padding: 15px 20px;
-    width: 100%;
+	border-radius: 10px;
+	padding: 15px 20px;
+	width: 100%;
 }
-  
+
 .heading {
-    color: white;
-    font-size: 2.5em;
-    padding-bottom: 10px;
-    border-bottom: 2px solid white;
+	color: white;
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
 }
-  
+
 .button {
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #29ebda;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    width: 100%;
-  }
-  
-.mt-20 {
-    margin-top: 20px;
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: radial-gradient( #042936, #0121336e);
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	width: 100%;
+	cursor: pointer;
 }
-  
+
+.mt-20 {
+	margin-top: 20px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
-    .outerContainer {
-    height: 100%;
-    }
-  
-    .innerContainer {
-      width: 90%;
-    }
-  
-  
-  }
-  
-  button:focus {
-    outline: 0;
-  }
+	.joinOuterWrapper {
+		height: 100%;
+	}
+
+	.joinInnerWrapper {
+		width: 90%;
+	}
+}
+
+button:focus {
+	outline: 0;
+}
+.joinInnerWrapper > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
