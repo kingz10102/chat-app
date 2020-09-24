@@ -12,10 +12,10 @@ const TextContainer = ({ users }) => (
 				</span>
 			</h1>
 			<h2>
-				Similar to to Aim or Meebo. Your Place to explore <span role="img" aria-label="emoji" />
+				Similar to Aim or Meebo. Its your place to explore <span role="img" aria-label="emoji" />
 			</h2>
 			<h2>
-				Start your conversations now!{' '}
+				Start chattin' now !{' '}
 				<span role="img" aria-label="emoji">
 					🗣🗣
 				</span>

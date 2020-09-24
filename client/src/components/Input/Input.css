@@ -26,6 +26,7 @@ select:focus {
 	padding: 30px;
 	display: inline-block;
 	border: none;
-	width: 20%;
-	border-radius: 10px;
+	width: 25%;
+	border-radius: 15px;
+	cursor: pointer;
 }
